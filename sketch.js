@@ -13,7 +13,7 @@ function draw() {
       // noprotect
       for (var j = 0; j <= height; j++) {
         // noprotect
-        stroke((mouseX / width) * 255, (j / height) * 255, (i / height) * 255);
+        stroke((mouseX / width) * 255, (j / height) * 255, (i / width) * 255);
         rect(i, j, 1, 1);
       }
     }
