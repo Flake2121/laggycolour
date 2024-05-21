@@ -9,9 +9,9 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed) {
-    for (var i = 0; i <= height; i++) {
+    for (var i = 0; i <= width; i++) {
       // noprotect
-      for (var j = 0; j <= width; j++) {
+      for (var j = 0; j <= height; j++) {
         // noprotect
         stroke((mouseX / width) * 255, (j / height) * 255, (i / height) * 255);
         rect(i, j, 1, 1);
