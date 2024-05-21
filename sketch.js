@@ -14,7 +14,7 @@ function draw() {
       for (var j = 0; j <= height; j++) {
         // noprotect
         stroke((mouseX / width) * 255, (j / height) * 255, (i / width) * 255);
-        rect(i, j, 1, 1);
+        point(i, j);
       }
     }
   }
