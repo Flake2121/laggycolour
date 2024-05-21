@@ -1,4 +1,4 @@
-colourV = prompt("Colour Value", "100");
+colourV = prompt("Colour Value\(values accepted 0 - 1\)", "0.5");
 function setup() {
   var w = window.innerWidth;
   var h = window.innerHeight;
@@ -11,7 +11,7 @@ function setup() {
     // noprotect
     for (var j = 0; j <= height; j++) {
       // noprotect
-      stroke(colourV, (j / height) * 255, (i / width) * 255);
+      stroke(colourV*width, (j / height) * 255, (i / width) * 255);
       point(i, j);
     }
   }
