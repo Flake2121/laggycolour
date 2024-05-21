@@ -11,7 +11,7 @@ function setup() {
     // noprotect
     for (var j = 0; j <= height; j++) {
       // noprotect
-      stroke((colourV / width) * 255, (j / height) * 255, (i / width) * 255);
+      stroke(colourV, (j / height) * 255, (i / width) * 255);
       point(i, j);
     }
   }
