@@ -1,5 +1,6 @@
 colourV = prompt("Colour Value\(values accepted 0 - 1\)", "0.5");
 function setup() {
+  requestFullscreen()
   var w = window.innerWidth;
   var h = window.innerHeight;
   createCanvas(w, h);
