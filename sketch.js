@@ -5,7 +5,6 @@ function setup() {
   var h = window.innerHeight;
   createCanvas(w, h);
   background(255);
-  point(40, 40);
   frameRate(20);
 
   for (var i = 0; i <= width; i++) {
